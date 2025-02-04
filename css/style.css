@@ -383,6 +383,11 @@ main {
     }
 }
 @media(max-width:768px){
+    .dress__item{
+        width:33%;
+    }
+}
+@media(max-width:768px){
     .logo{
         order:-1;
         width:70%;
@@ -411,6 +416,16 @@ main {
     }
     .mainmenu__list{
         flex-direction:column;
+    }
+}
+@media(max-width:576px){
+    .dress__item{
+        width:50%;
+    }
+}
+@media(max-width:320px){
+    .dress__item{
+        width:100%;
     }
 }
 .show{
